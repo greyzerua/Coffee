@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Morning Coffe</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="./burger.js" defer></script>
+	<script src="./slider.js" defer></script>
+	<script src="./video.js" defer></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="menu">
+			<div class="menu__container">
+				<div class="menu__logo"></div>
+				<nav class="menu__nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#" class="nav__link">Home</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">About</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Menu</a>
+						</li>
+					
+						<li class="nav__item">
+							<a href="#" class="nav__link">Blog</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Shop</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="header__logo-burger">
+						<a href="#" class="header__logo-link">
+							<img src="img/Logo.png" alt="">
+						</a>
+					</div>
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#" class="nav__link">Home</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">About</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Menu</a>
+						</li>
+					</ul>
+					<div class="header__logo">
+						<a href="#" class="header__logo">
+							<img src="img/Logo.png" alt="">
+						</a>
+					</div>
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#" class="nav__link">Blog</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Shop</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+				<div class="menu-btn menu-btn-header">
+						<span></span>
+						<span></span>
+						<span></span>
+				</div>	
+		</header>
+
+		<section class="home-section">
+			<div class="home-section__wrapper">
+				<h1 class="home-section__title">
+					Morning Coffe Routine
+				</h1>
+				<p class="home-section__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="#" class="home-section__link link-btn">
+				Get Started</a>
+			</div>
+		</section>
+
+		<section class="voucher-section">
+			<div class="voucher-section__wrapper">
+				<div class="voucher-section__img">
+					<img src="img/voucher-img.png" alt="">
+				</div>
+				<div class="voucher-section__info">
+					<div class="voucher-section__title">
+						Gift Voucher
+						<span class="voucher-section__title-size">1 Free Cup of Coffee</span>
+					</div>
+					<div class="voucher-section__text">
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+					</div>
+					<a href="#" class="voucher-section__link link-btn">Claim Voucher Here</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="coffee-section">
+			<div class="coffee-section__wrapper">
+				<div class="coffee-section__img">
+					<img src="img/coffee.png" alt="">
+				</div>
+				<div class="coffee-section__info">
+					<h2 class="coffee-section__title">Best Coffee Brand in NYC</h2>
+					<p class="coffee-section__text">Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Volutpat lacus laoreet non curabitur gravida. Dictum sit amet justo donec enim. Eu scelerisque felis imperdiet proin fermentum leo vel. Tincidunt lobortis feugiat vivamus at augue. Porttitor massa id neque aliquam vestibulum.</p>
+					<a href="#" class="coffee-section__link">Read Story</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="menu-section">
+			<div class="menu-section__wrapper">
+				<div class="menu-section__info">
+					<h2 class="menu-section__title">Menu</h2>
+					<p class="menu-section__text">Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. </p>
+				</div>
+				<div class="menu-section__items">
+					<div class="swiper mySwiper">
+					    <div class="swiper-wrapper">
+					    	<div class="swiper-slide">
+							    <div class="menu-section__item item">
+									<div class="item__img">
+										<img src="img/coffee1.png" alt="">
+									</div>
+									<div class="item__info">
+										<h2 class="item__title">Americano</h2>
+										<p class="item__text">Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer</p>
+										<a href="#" class="item__link link-btn">Order Now</a>
+									</div>
+								</div>
+					      	</div>
+					      	<div class="swiper-slide">
+								<div class="menu-section__item item">
+									<div class="item__img">
+										<img src="img/coffee2.png" alt="">
+									</div>
+									<div class="item__info">
+										<h2 class="item__title">Long Black</h2>
+										<p class="item__text">Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer</p>
+										<a href="#" class="item__link link-btn">Order Now</a>
+									</div>
+								</div>
+					      	</div>
+					      	<div class="swiper-slide">
+							<div class="menu-section__item item">
+								<div class="item__img">
+									<img src="img/coffee3.png" alt="">
+								</div>
+								<div class="item__info">
+									<h2 class="item__title">Cafe Latte</h2>
+									<p class="item__text">Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer</p>
+									<a href="#" class="item__link link-btn">Order Now</a>
+								</div>
+							</div>
+					      	</div>
+					      	<div class="swiper-slide">
+								<div class="menu-section__item item">
+									<div class="item__img">
+										<img src="img/coffee2.png" alt="">
+									</div>
+									<div class="item__info">
+										<h2 class="item__title">Long Black</h2>
+										<p class="item__text">Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer</p>
+										<a href="#" class="item__link link-btn">Order Now</a>
+									</div>
+								</div>
+					      	</div>
+					      	<div class="swiper-slide">
+								<div class="menu-section__item item">
+									<div class="item__img">
+										<img src="img/coffee3.png" alt="">
+									</div>
+									<div class="item__info">
+										<h2 class="item__title">Cafe Latte</h2>
+										<p class="item__text">Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer</p>
+										<a href="#" class="item__link link-btn">Order Now</a>
+									</div>
+								</div>
+					      	</div>
+					      	<div class="swiper-slide">
+								<div class="menu-section__item item">
+									<div class="item__img">
+										<img src="img/coffee3.png" alt="">
+									</div>
+									<div class="item__info">
+										<h2 class="item__title">Cafe Latte</h2>
+										<p class="item__text">Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer</p>
+										<a href="#" class="item__link link-btn">Order Now</a>
+									</div>
+								</div>
+					      	</div>
+					    </div>
+				    	<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="store-section">
+			<div class="store-section__wrapper">
+				<div class="store-section__info">
+					<h2 class="store-section__title">Store</h2>
+					<p class="store-section__text">Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. </p>
+				</div>
+				<div class="store-section__cards">
+					<div class="store-section__card card">
+						<div class="card__img">
+							<img src="img/card1.png" alt="">
+						</div>
+						<div class="card__info">
+							<div class="card__name">
+								<p class="card__name-text">Corpertum</p>
+							</div>
+							<p class="card__text">A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida neque convallis.</p>
+							<a href="#" class="card__link link-btn">Visit Now</a>
+						</div>
+					</div>
+
+					<div class="store-section__card card">
+						<div class="card__img">
+							<img src="img/card2.png" alt="">
+						</div>
+						<div class="card__info">
+							<div class="card__name">
+								<p class="card__name-text">Vesttibulun</p>
+							</div>
+							<p class="card__text">A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida neque convallis.</p>
+							<a href="#" class="card__link link-btn">Visit Now</a>
+						</div>
+					</div>
+
+					<div class="store-section__card card">
+						<div class="card__img">
+							<img src="img/card3.png" alt="">
+						</div>
+						<div class="card__info">
+							<div class="card__name">
+								<p class="card__name-text">Convallis</p>
+							</div>
+							<p class="card__text">A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida neque convallis.</p>
+							<a href="#" class="card__link link-btn">Visit Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="video-section">
+			<div class="video-section__wrapper">
+				<div class="video-section__video video">
+					<video src="img/Starbucks_ It Starts With You.mp4"controls preload="auto" width="700" poster="img/video-img.png" id="mainVideo"></video>
+					<img src="img/play.png" alt="" class="video__icon" id="mainVideoPlayIcon">	
+				</div>
+				<div class="video-section__info">
+					<h2 class="video-section__title">Company Profile</h2>
+					<p class="video-section__text">Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. </p>
+					<div class="video-section__icons">
+							<a href="#" class="video-section__icon icon">
+								<i class="fa-brands fa-facebook-f"></i>
+							</a>
+							<a href="#" class="video-section__icon icon">
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+							<a href="#" class="video-section__icon icon">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-section">
+			<div class="contact-section__wrapper">
+				<div class="contact-section__img">
+					<img src="img/map.png" alt="">
+				</div>
+				<div class="contact-section__info info">
+					<h2 class="contact-section__title">Contact Us</h2>
+					<form action="#" class="contact-section__form">
+						<input type="text" placeholder="Your Name">
+						<input type="text" placeholder="Gender">
+						<textarea name="message" placeholder="Message"></textarea>
+					</form>
+					<a href="#" class="info__link link-btn">Send Message</a>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__wrapper">
+				<div class="footer__logo">
+					<img src="img/footer-logo.png" alt="">
+				</div>
+				<div class="footer__info">
+					<h3 class="footer__info-title">Your Company</h3>
+					<p class="footer__text">Halimun Street 25</p>
+					<p class="footer__text">Jakarta, Indonesia</p>
+					<p class="footer__text">12850</p>
+					<a href="#" class="footer__info-link">www.yourdomain.com</a>
+				</div>
+				<nav class="nav__footer">
+						<h3 class="nav__footer-title">Sitemap</h3>
+					<ul class="nav__footer-list">
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Home</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">About</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Blog</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Menu</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Store</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Contact </a>
+						</li>
+					</ul>
+				</nav>
+
+				<nav class="nav__footer">
+						<h3 class="nav__footer-title">Lorem Ipsum</h3>
+					<ul class="nav__footer-list">
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Neque</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Suspendisse</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Dictum</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Porttitor</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Tincidunt</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Enim lobortis</a>
+						</li>
+					</ul>
+				</nav>
+
+				<nav class="nav__footer">
+						<h3 class="nav__footer-title">Sit Amet</h3>
+					<ul class="nav__footer-list">
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Neque</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Suspendisse</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Dictum</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Porttitor</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Tincidunt</a>
+						</li>
+						<li class="nav__footer-item">
+							<a href="#" class="nav__footer-link">Enim lobortis</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="footer__social">
+					<div class="footer__social-logo">
+						<img src="img/logo.png" alt="">
+					</div>
+					<p class="footer__social-text">Copyright ©  2020 Freepik</p>
+					<p class="footer__social-text">Company S.L. All rights reserved.</p>
+					<div class="footer__social-icons">
+						<a href="#" class="footer__social-icon icon">
+								<i class="fa-brands fa-facebook-f"></i>
+							</a>
+							<a href="#" class="footer__social-icon icon">
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+							<a href="#" class="footer__social-icon icon">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
